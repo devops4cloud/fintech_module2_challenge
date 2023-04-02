@@ -2,13 +2,14 @@
 
 The application helps the user to generate a list of banks that would accept the home loan application based on input criteria.
 Input criteria:
-    + Credit Score
-    + Monthly Income
-    + Home Value
-    + Monthly Debt
-    + Loan amount
 
-The inputs are evaluated against a set of criteria submitted by various banks. The data provided by the banks are included in daily_rate_sheet.csv
+- Credit Score
+- Monthly Income
+- Home Value
+- Monthly Debt
+- Loan amount
+
+#### The inputs are evaluated against a set of criteria submitted by various banks. The data provided by the banks are included in daily_rate_sheet.csv
 ---
 
 ## Technologies
