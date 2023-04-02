@@ -60,6 +60,7 @@ To use the application, follow the steps below.
 ### Sample Execution
 
 The following image shows the end-to-end execution of the program
+
 ![Command line](how_to_execute_app.png)
 
 ---
