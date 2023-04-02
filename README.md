@@ -58,7 +58,7 @@ To use the application, follow the steps below.
 5. Enter a file name to save qualifying loans to
 
 ### Sample Execution
-    ![Sample Execution via CLI ](how_to_execute_app.png)
+    ![Command line](how_to_execute_app.png)
 
 ---
 
