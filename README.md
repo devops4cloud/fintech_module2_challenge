@@ -51,9 +51,14 @@ To use the application, follow the steps below.
 
 2. python app.py
 
-3. Enter the location of the file containing loan infomation from Banks
-    
+3. Enter the location of the file containing loan infomation from Banks (daily_rate_sheet.csv)
 
+4. Enter the loan information: Credit Score, Monthly Income, Home Value, Monthly Debt, Loan amount
+
+5. Enter a file name to save qualifying loans to
+
+### Sample Execution
+    ![Sample Execution via CLI ](how_to_execute_app.png)
 
 ---
 
