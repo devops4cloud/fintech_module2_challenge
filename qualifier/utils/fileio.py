@@ -28,3 +28,17 @@ def load_csv(csvpath):
         for row in csvreader:
             data.append(row)
     return data
+
+def save_csv(write_csv_path):
+
+    # Define the header row
+    header = ['FirstName', 'LastName']
+    
+    #Open the file for writing
+    with open(write_csv_path, "w", newline='') as csvfile:
+        csvwriter = csv.writer(csvfile)
+        data = []
+
+        # Write the header
+        csvwriter.writerow(header)
+

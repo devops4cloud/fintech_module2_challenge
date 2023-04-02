@@ -10,6 +10,7 @@ import sys
 import fire
 import questionary
 from pathlib import Path
+import csv
 
 from qualifier.utils.fileio import load_csv
 
@@ -108,9 +109,40 @@ def save_qualifying_loans(qualifying_loans):
     Args:
         qualifying_loans (list of lists): The qualifying bank loans.
     """
-    # @TODO: Complete the usability dialog for savings the CSV Files.
-    # YOUR CODE HERE!
+    # Prompts the user to save the qualifying loans to a spreadhseet if there are qualifying loans and the list is not empty
+    if len(qualifying_loans) > 0:
+        user_response = questionary.confirm("Do you want to save the qualifying loans to a file?").ask()
 
+        if user_response:
+
+            # Prompts the user to enter a filename/path and also provides a default
+            write_csv_path = questionary.path(default = "Qualified_Loans.csv", message ="Enter name of the file to save qualified loans or hit enter to select default:").ask()
+            print(f"Filename you entered: {write_csv_path }")
+
+            # Prompts the user to confirm the file path
+            user_confirm = questionary.confirm("Is the filename provided correct?").ask()
+
+            if user_confirm:
+                print(f"filename {write_csv_path } confirmed")
+                # Calling the save_csv funtion to save the qualifying loan information
+                
+                # Define the header row
+                header = ['Lender','Max Loan Amount','Max LTV','Max DTI','Min Credit Score','Interest Rate']
+
+                # Open the file for writing
+                with open(write_csv_path, "w", newline='') as csvfile:
+                    csvwriter = csv.writer(csvfile)
+
+                    # Write the header
+                    csvwriter.writerow(header)
+
+                    # Write the qualifying loans
+                    for row in qualifying_loans:
+                        csvwriter.writerow(row)
+            else:
+                print("File not saved, re-run to start over")
+        else:
+            print("Data not saved")
 
 def run():
     """The main function for running the script."""

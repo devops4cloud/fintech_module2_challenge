@@ -1,3 +1,6 @@
+# Ignore output files
+Qualified_Loans.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
