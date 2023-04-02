@@ -58,7 +58,7 @@ To use the application, follow the steps below.
 5. Enter a file name to save qualifying loans to
 
 ### Sample Execution
-    ![Command line](how_to_execute_app.png)
+    ![Command line](https://github.com/devops4cloud/fintech_module2_challenge/blob/main/how_to_execute_app.png)
 
 ---
 
