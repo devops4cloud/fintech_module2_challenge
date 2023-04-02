@@ -1,7 +1,6 @@
 # Loan Qualifier App
 
 The application helps the user to generate a list of banks that would accept the home loan application based on input criteria.
-Input criteria:
 
 - Credit Score
 - Monthly Income
@@ -14,13 +13,10 @@ Input criteria:
 
 ## Technologies
 
-The program is based on Python 3 and imports the following libraries/packages to function
+The program is based on Python 3 and require the following libraries/packages to function
 
-- sys
 - fire
 - questionary
-- Path
-- csv
 
 ---
 
@@ -37,8 +33,6 @@ The user of the application will have to download Python,   Python package manag
    > pip install fire <br>
    
 
-
-
 ---
 
 ## Usage
@@ -50,7 +44,7 @@ To use the application, follow the steps below.
     > git clone https://github.com/devops4cloud/fintech_module2_challenge.git <br>
     > cd fintech_module2_challenge
 
-2. python app.py
+2. Run python app.py on terminal
 
 3. Enter the location of the file containing loan infomation from Banks (daily_rate_sheet.csv)
 
