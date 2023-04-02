@@ -58,16 +58,18 @@ To use the application, follow the steps below.
 5. Enter a file name to save qualifying loans to
 
 ### Sample Execution
-    ![Command line](https://github.com/devops4cloud/fintech_module2_challenge/blob/main/how_to_execute_app.png)
+
+The following image shows the end-to-end execution of the program
+![Command line](how_to_execute_app.png)
 
 ---
 
 ## Contributors
 
-In this section, list all the people who contribute to this project. You might want recruiters or potential collaborators to reach you, so include your contact email and, optionally, your LinkedIn or Twitter profile.
+This application is developed by Mario G.
 
 ---
 
 ## License
 
-When you share a project on a repository, especially a public one, it's important to choose the right license to specify what others can and can't with your source code and files. Use this section to include the license you want to use.
+Copyright: N/A
