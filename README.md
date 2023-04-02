@@ -33,9 +33,9 @@ The user of the application will have to download python and the associated pack
    - [How to install Python](https://www.python.org/downloads/) 
    - [How to install Pip ](https://pip.pypa.io/en/stable/installation/) 
    
-   Install PIP and Questionary
-   > pip install questionary
-   > pip install fire
+   Once you have installed Python and PIP, you can install Questionary and Fire
+   > pip install questionary <br>
+   > pip install fire <br>
 
 ---
 
