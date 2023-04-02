@@ -15,8 +15,8 @@ The application helps the user to generate a list of banks that would accept the
 
 The program is based on Python 3 and require the following libraries/packages to function
 
-- fire
-- questionary
+- Fire
+- Questionary
 
 ---
 
