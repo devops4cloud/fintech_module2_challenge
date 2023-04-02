@@ -123,7 +123,7 @@ def save_qualifying_loans(qualifying_loans):
             user_confirm = questionary.confirm("Is the filename provided correct?").ask()
 
             if user_confirm:
-                print(f"filename {write_csv_path } confirmed")
+                print(f"filename {write_csv_path} confirmed")
                 # Calling the save_csv funtion to save the qualifying loan information
                 
                 # Define the header row
@@ -139,6 +139,7 @@ def save_qualifying_loans(qualifying_loans):
                     # Write the qualifying loans
                     for row in qualifying_loans:
                         csvwriter.writerow(row)
+                print("Data Saved to file")
             else:
                 print("File not saved, re-run to start over")
         else:

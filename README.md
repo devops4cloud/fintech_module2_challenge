@@ -9,9 +9,6 @@ Input criteria:
     - Loan amount
 
 The inputs are evaluated against a set of criteria submitted by various banks. The data provided by the banks are included in daily_rate_sheet.csv
-
-
-
 ---
 
 ## Technologies
@@ -28,20 +25,35 @@ The program is based on Python 3 and imports the following libraries/packages to
 
 ## Installation Guide
 
-The user of the application will have to download python and the associated packages mentioned above
+The user of the application will have to download Python,   Python package manager PIP and Git.
 
    - [How to install Python](https://www.python.org/downloads/) 
-   - [How to install Pip ](https://pip.pypa.io/en/stable/installation/) 
+   - [How to install PIP ](https://pip.pypa.io/en/stable/installation/) 
+   - [How to install Git ](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) 
    
-   Once you have installed Python and PIP, you can install Questionary and Fire
+   Once you have installed Python and PIP, you can install Questionary and Fire packages 
    > pip install questionary <br>
    > pip install fire <br>
+   
+
+
 
 ---
 
 ## Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+To use the application, follow the steps below.
+
+1. Download the files from Github
+    > mkdir Loan_Qualifer <br>
+    > git clone https://github.com/devops4cloud/fintech_module2_challenge.git <br>
+    > cd fintech_module2_challenge
+
+2. python app.py
+
+3. Enter the location of the file containing loan infomation from Banks
+    
+
 
 ---
 
