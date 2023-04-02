@@ -1,0 +1,64 @@
+ 1005  git status
+ 1006  git status
+ 1007  git add .
+ 1008  git commit -m "Added functionality to prompt user for output file"
+ 1009  git push
+ 1010  git status
+ 1011  git status
+ 1012  git add .
+ 1013  git commit -m "Edit the Readme.md file"
+ 1014  git push
+ 1015  git add .
+ 1016  git commit -m "Edit the Readme.md file"
+ 1017  git push
+ 1018  clear
+ 1019  pwd
+ 1020  app.py
+ 1021  clear
+ 1022  python app.py
+ 1023  python app.py
+ 1024  python app.py
+ 1025  ls
+ 1026  python app.py
+ 1027  python app.py
+ 1028  python app.py
+ 1029  pwd
+ 1030  clear
+ 1031  python app.py
+ 1032  clear
+ 1033  python app.py
+ 1034  clear
+ 1035  python app.py
+ 1036  git status
+ 1037  git add .
+ 1038  git commit -m "Added a screenshot and readme updates"
+ 1039  git push
+ 1040  git status
+ 1041  git add .
+ 1042  git commit -m "Added a screenshot and readme updates"
+ 1043  git push
+ 1044  git add .
+ 1045  git commit -m "Added a screenshot and readme updates"
+ 1046  git push
+ 1047  git add .
+ 1048  git commit -m "Added a screenshot and readme updates"
+ 1049  git push
+ 1050  git add .
+ 1051  git commit -m "Added a screenshot and readme updates"
+ 1052  git push
+ 1053  git add .
+ 1054  git commit -m "Added a screenshot and readme updates"
+ 1055  git push
+ 1056  git add .
+ 1057  git commit -m "Added a screenshot and readme updates"
+ 1058  git push
+ 1059  git add .
+ 1060  git commit -m "Added a screenshot and readme updates"
+ 1061  git push
+ 1062  git add .
+ 1063  git commit -m "Added a screenshot and readme updates"
+ 1064  git push
+ 1065  git add .
+ 1066  git commit -m "Final updates to readme.md"
+ 1067  git push
+ 1068  history 50 > terminal_history.txt
